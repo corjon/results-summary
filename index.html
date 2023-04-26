@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
 <body>
   <main>
-    <div>
+    <div class="result-score">
       <h1>Your Result</h1>
       <div>
         <p>76</p>
@@ -22,31 +23,31 @@
       <p>You scored higher than 65% of the people who have taken these tests.</p>
     </div>
   
-    <div>
+    <div class="result-summary">
       <h2>Summary</h2>
 
-      <div>
+      <div class="reaction">
         <img src="assets/images/icon-reaction.svg" alt="">
-        <p>Reaction</p>
-        <p><span>80</span> / 100</p>
+        <p class="red">Reaction</p>
+        <p class="help">80 <span>/ 100</span></p>
       </div>
 
-      <div>
+      <div class="memory">
         <img src="assets/images/icon-memory.svg" alt="">
-        <p>Memory</p>
-        <p><span>92</span> / 100</p>
+        <p class="yellow">Memory</p>
+        <p>92 <span>/ 100</span></p>
       </div>
 
-      <div>
+      <div class="verbal">
         <img src="assets/images/icon-verbal.svg" alt="">
-        <p>Verbal</p>
-        <p><span>61</span> / 100</p>
+        <p class="green">Verbal</p>
+        <p>61 <span>/ 100</span></p>
       </div>
 
-      <div>
+      <div class="visual">
         <img src="assets/images/icon-visual.svg" alt="">
-        <p>Visual</p>
-        <p><span>72</span> / 100</p>
+        <p class="blue">Visual</p>
+        <p>72 <span>/ 100</span></p>
       </div>
 
       <button type="button">Continue</button>
